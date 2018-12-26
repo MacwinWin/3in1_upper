@@ -78,8 +78,8 @@ class MyFrom(QMainWindow):
             self.current.change_grey_open()
 
     def reset_all_color(self):
-        self.voltage = VoltageClass(self.ui)
-        self.charge = ChargeClass(self.ui)
+        self.voltage = voltage.VoltageClass(self.ui)
+        self.charge = charge.ChargeClass(self.ui)
         self.voltage.reset_color()
         self.charge.reset_color()
 
