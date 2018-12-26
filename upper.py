@@ -27,7 +27,6 @@ class MyFrom(QMainWindow):
         self.ui.voltage_radioButton.toggled.connect(self.setup_voltage)
         self.ui.charge_radioButton.toggled.connect(self.setup_charge)
         self.ui.current_radioButton.toggled.connect(self.setup_current)
-#        self.ui.v18_Button.clicked.connect(self.test)
     
     def setup_port(self):
         self.port = port.PortClass(self.ui)
